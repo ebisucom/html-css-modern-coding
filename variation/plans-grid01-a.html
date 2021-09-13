@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Boards</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+	<link href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" rel="stylesheet">
+	
+	<link href="parts.css" rel="stylesheet">
+
+<style>
+.plans-container {
+	display: grid;
+	gap: 27px;
+}
+
+@media (min-width: 768px) {
+	.plans-container {
+		grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+	}
+}
+</style>
+</head>
+<body class="parts-plans">
+
+<section class="plans">
+	<div class="plans-container">
+		<div class="plan">
+			<h3>Free</h3>
+			<p class="desc">便利なオンラインツールを今すぐご利用いただけるプランです。</p>
+			<p class="price">無料</p>
+			<a href="#" class="btn">使ってみる</a>
+		</div>
+
+		<div class="plan">
+			<h3>Standard</h3>
+			<p class="desc">厳選した最新ステーショナリーグッズを毎月お届けするスタンダードプランです。</p>
+			<p class="price">980円/月</p>
+			<a href="#" class="btn btn-accent">使ってみる</a>
+		</div>
+
+		<div class="plan">
+			<h3>Pro</h3>
+			<p class="desc">プロフェッショナルなツールの貸し出し、工房の利用など、さまざまなご要望にお応えするプランです。</p>
+			<p class="price">2,800円/月</p>
+			<a href="#" class="btn btn-accent">使ってみる</a>
+		</div>
+
+        <div class="plan">
+			<h3>Pro EX</h3>
+			<p class="desc">特別なサポートを用意したスペシャルなプランです。</p>
+			<p class="price">4,800円/月</p>
+			<a href="#" class="btn btn-accent">使ってみる</a>
+		</div>
+	</div>
+</section>
+	
+</body>
+</html>

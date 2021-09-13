@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Boards</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+	<link href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" rel="stylesheet">
+	
+	<link href="parts.css" rel="stylesheet">
+
+<style>
+.footer-container {
+	display: grid;
+	gap: 50px;
+	justify-items: center;
+}
+
+@media (min-width: 768px) {
+	.footer-container {
+		grid-template-columns: auto auto;
+		grid-template-rows: auto auto auto;
+		gap: 20px;
+	}
+
+	.footer-container > *:not(.footer-sns) {
+		justify-self: start;
+	}
+	
+	.footer-container > .footer-sns {
+		grid-column: 2;
+		grid-row: 1 / 4;
+		justify-self: end;
+		align-self: center;
+	}
+}
+
+</style>
+</head>
+<body class="parts-footer">
+
+<footer class="footer">
+	<div class="footer-container w-container">
+		<div class="footer-site">
+			<a href="index.html">
+				<img src="img/logo.svg" alt="Boards" width="135" height="26">
+			</a>
+		</div>
+
+		<ul class="footer-sns">
+			<li>
+				<a href="#">
+					<i class="fab fa-twitter"></i>
+					<span class="sr-only">Twitter</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class="fab fa-facebook-f"></i>
+					<span class="sr-only">Facebook</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class="fab fa-instagram"></i>
+					<span class="sr-only">Instagram</span>
+				</a>
+			</li>
+		</ul>
+
+		<ul class="footer-menu">
+			<li><a href="#">会社概要</a></li>
+			<li><a href="#">特定商取引法</a></li>
+			<li><a href="#">個人情報の取り扱い</a></li>
+			<li><a href="content.html">サービス案内</a></li>
+			<li><a href="#">お問い合わせ</a></li>
+		</ul>
+
+		<div class="footer-copy">
+			@ Boards Production.
+		</div>
+	</div>
+</footer>
+	
+</body>
+</html>

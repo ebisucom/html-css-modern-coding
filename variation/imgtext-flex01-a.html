@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Boards</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+	<link href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" rel="stylesheet">
+	
+	<link href="parts.css" rel="stylesheet">
+
+<style>
+.imgtext-container {
+	display: flex;
+	flex-direction: column;
+	gap: clamp(45px, 6vw, 80px);
+}
+
+.imgtext-container.reverse {
+	flex-direction: column-reverse;
+}
+
+@media (min-width: 768px) {
+	.imgtext-container {
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.imgtext-container.reverse {
+		flex-direction: row-reverse;
+	}
+
+	.imgtext-container > .text {
+		flex: 1;
+  	}
+
+	.imgtext-container > .img {
+		flex: 2;
+	}
+}
+</style>
+</head>
+<body>
+
+<section class="imgtext">
+	<div class="imgtext-container reverse">
+		<div class="text">
+			<h2 class="heading-decoration">効率化の手助け</h2>
+			<p>Helpful</p>
+			<p>さまざまな作業を効率よく進めるためには、目的に応じて最適な道具を使うことが大切です。そんな道具たちが揃っています。</p>
+		</div>
+		<figure class="img">
+			<img src="img/helpful.jpg" alt="" width="1600" height="1260">
+		</figure>
+	</div>
+</section>
+
+	
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Document</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400,700&display=swap" rel="stylesheet">
+
+<style>
+.container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto;
+	gap: 10px;
+	aspect-ratio: 1 / 1;
+	border: solid 2px red;
+}
+
+@supports not (aspect-ratio: 1 / 1) {
+	.container {
+		height: 100vw;
+	}
+}
+
+.boxA {
+	background-color: #d0e6bd;
+	font-size: 48px;
+}
+
+.boxB {
+	background-color: #facc88;
+	font-size: 36px;
+}
+
+.boxC {
+	background-color: #eec5dc;
+	font-size: 24px;
+}
+
+.boxD {
+    background-color: #badcf4;
+    font-size: 18px;
+}
+
+.boxE {
+    background-color: #efde7f;
+    font-size: 12px;
+}
+
+.box {
+	font-family: Montserrat, sans-serif;
+	font-weight: 700;
+	display: grid;
+	place-items: center;
+	padding: 10px 20px;
+}
+
+body {
+	margin: 0;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+	<div class="box boxA">A</div>
+	<div class="box boxB">B</div>
+	<div class="box boxC">C</div>
+	<div class="box boxD">D</div>
+	<div class="box boxE">E</div>
+</div>
+
+
+
+</body>
+</html>
