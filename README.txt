@@ -4,10 +4,8 @@
 
 ==================================================
 
+GiHhubのサポートWiki (https://github.com/ebisucom/html-css-modern-coding/wiki) に正誤情報（P.109、139）を追加しました。［2022年6月5日］
 
-【特典PDF】HTML＆CSS 簡易リファレンス （html-css-reference.pdf）を更新しました。［2021年9月28日］
-
-* 掲載コードの誤植を修正しています。詳細についてはGiHhubの [Wiki](https://github.com/ebisucom/html-css-modern-coding/wiki) を参照してください。
 
 * 最新の情報は著者NOTE（https://ebisu.com/note/ ） や Twitter ( https://twitter.com/ebisucom ) でも出していますので、参考にしてください。
 
