@@ -4,7 +4,7 @@
 
 ---
 
-**[Wiki](https://github.com/ebisucom/html-css-modern-coding/wiki)に正誤情報（P.109、139）を追加しました。［2022年6月5日］**
+**[Wiki](https://github.com/ebisucom/html-css-modern-coding/wiki)に正誤情報（P.92、93）を追加しました。［2022年10月6日］**
 
 ※最新の情報は著者NOTE（https://ebisu.com/note/ ） や Twitter ( https://twitter.com/ebisucom ) でも出していますので、参考にしてください。
 
